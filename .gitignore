@@ -1,0 +1,13 @@
+storage
+compile-cache
+dev
+recovery
+.apm
+.npm
+.node-gyp
+packages/
+blob-store/
+split-diff/
+atom-shell/
+git-time-machine/
+markdown-preview-enhanced/
