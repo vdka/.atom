@@ -11,6 +11,9 @@
   'cmd-h': 'window:focus-pane-on-left'
   'cmd-l': 'window:focus-pane-on-right'
 
+'atom-text-editor.autocomplete-active':
+  'escape': 'vim-mode-plus:activate-normal-mode'
+
 'body':
   'cmd-j': 'unset!'
   'cmd-l': 'unset!'
@@ -22,6 +25,9 @@
   'cmd-l': 'unset!'
   'cmd-h': 'unset!'
   'cmd-k': 'unset!'
+
+'atom-text-editor':
+  'cmd-r': 'unset!'
 
 '.fuzzy-finder atom-text-editor[mini]':
   'alt-enter': 'pane:split-right'

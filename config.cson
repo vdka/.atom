@@ -2,15 +2,15 @@
   "atom-material-ui":
     colors:
       abaseColor:
-        red: 255
-        green: 167
+        alpha: 1
         blue: 38
-        alpha: 1
+        green: 167
+        red: 255
       accentColor:
-        red: 159
-        green: 105
-        blue: 24
         alpha: 1
+        blue: 24
+        green: 105
+        red: 159
       genAccent: true
       predefinedColor: "Orange"
     fonts:
@@ -22,6 +22,9 @@
     ui: {}
   autocomplete:
     includeCompletionsFromAllBuffers: true
+  "autocomplete-plus":
+    defaultProvider: "Fuzzy"
+    strictMatching: true
   build:
     overrideThemeColors: false
     panelVisibility: "Keep Visible"
@@ -69,12 +72,15 @@
       "terminal-plus"
     ]
     restorePreviousWindowsOnStart: true
+    themes: [
+      "one-dark-ui"
+      "firewatch-hot-syntax"
+    ]
   crystal: {}
   editor:
     fontFamily: "SFMono-Regular"
     fontSize: 12
     invisibles: {}
-    showIndentGuide: true
     showInvisibles: true
     softWrapHangingIndent: 2
     tabType: "soft"
