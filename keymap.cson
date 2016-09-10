@@ -1,4 +1,7 @@
 
+'atom-workspace atom-text-editor:not([mini])':
+  'cmd-j': 'unset!'
+
 '.platform-darwin':
   'cmd-b': 'build:trigger'
   'cmd-r': 'build:trigger'
