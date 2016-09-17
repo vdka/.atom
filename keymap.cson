@@ -29,8 +29,9 @@
   'cmd-h': 'unset!'
   'cmd-k': 'unset!'
 
-'atom-text-editor':
+'.platform-darwin atom-text-editor':
   'cmd-r': 'unset!'
+  'cmd-g': 'go-to-line:toggle'
 
 '.fuzzy-finder atom-text-editor[mini]':
   'alt-enter': 'pane:split-right'
